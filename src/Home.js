@@ -84,7 +84,7 @@ function Cards() {
         <>
             <Row>
                 <Col>
-                    <Card style={{ width: '25rem' }} className="h-100"  >
+                    <Card  className="h-100"  >
                         <Card.Img src='https://plus.unsplash.com/premium_photo-1663134377392-50c34664d632?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3RhZmZ8ZW58MHx8MHx8fDA%3D' style={{ width: '100%', height: '300px' }} />
                         <Card.Body>
                             <Card.Title>Consulting</Card.Title>
@@ -96,7 +96,7 @@ function Cards() {
                     </Card>
                 </Col>
                 <Col>
-                    <Card style={{ width: '25rem' }} className="h-100" >
+                    <Card className="h-100" >
                         <Card.Img src='https://images.unsplash.com/photo-1568658176307-bfbd2873abda?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3RhZmZ8ZW58MHx8MHx8fDA%3D' style={{ width: '100%', height: '300px' }} />
                         <Card.Body>
                             <Card.Title>Strategy</Card.Title>
@@ -107,7 +107,7 @@ function Cards() {
                         </Card.Body>
                     </Card></Col>
                 <Col>
-                    <Card style={{ width: '25rem' }} className="h-100" >
+                    <Card className="h-100" >
                         <Card.Img src='https://images.unsplash.com/photo-1576267423429-569309b31e84?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c3RhZmZ8ZW58MHx8MHx8fDA%3D' style={{ height: '300px', width: '100%' }} />
                         <Card.Body>
                             <Card.Title>Technology</Card.Title>
