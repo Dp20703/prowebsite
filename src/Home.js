@@ -15,8 +15,8 @@ function Header() {
         <>
             <Navbar expand='lg' data-bs-theme='dark' bg='dark'>
                 <Container>
-                    <Navbar.Brand>ProWebsite </Navbar.Brand>
-                    <img src="images/Logo.jpg" width='50' height='50' alt="logo" className="rounded-circle" />
+                    <Navbar.Brand>ProWebsite
+                        <img src="images/Logo.jpg" width='50' height='50' alt="logo" className="mx-2 rounded-circle" /></Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse>
                         <Nav className="ms-auto">
@@ -84,7 +84,7 @@ function Cards() {
         <>
             <Row>
                 <Col>
-                    <Card  className="h-100"  >
+                    <Card className="h-100"  >
                         <Card.Img src='https://plus.unsplash.com/premium_photo-1663134377392-50c34664d632?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3RhZmZ8ZW58MHx8MHx8fDA%3D' style={{ width: '100%', height: '300px' }} />
                         <Card.Body>
                             <Card.Title>Consulting</Card.Title>
